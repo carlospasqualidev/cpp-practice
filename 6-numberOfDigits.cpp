@@ -7,26 +7,6 @@
 
 int main()
 {
-    // int number;
-
-    // std::cout << "Enter an document number: ";
-    // std::cin >> number;
-    // if (std::cin.fail())
-    // {
-    //     std::cout << "Invalid input, please enter an integer" << std::endl;
-    //     return 0;
-    // }
-
-    // std::string stringNumber = std::to_string(number);
-
-    // if (stringNumber.length() < 11)
-    // {
-    //     std::cout << "The document number " << number << " has " << stringNumber.length() << " digit(s), please enter a valid document number" << std::endl;
-    //     return 0;
-    // }
-
-    // std::cout << "The document number is valid!" << std::endl;
-
     std::string code;
     std::cout << "Enter an document number: ";
     std::cin >> code;
